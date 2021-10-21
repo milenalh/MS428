@@ -31,7 +31,7 @@ def Simplex(Matriz_A, Vetor_B, Vetor_C, m, n): #Função Simplex de parâmetros 
         # Resolver o SL: B * x_B = b
         x_B = np.linalg.solve(B, b)
 
-        # Calcular valor da função atual: f(x_B) = c_B^t * x_B
+        # Calcular valor da função atual: f(x_B) = c_B^t * x_B 
         fx_B = np.dot(c_B, x_B)
 
         # Passo 2: Cálculo dos custos relativos
